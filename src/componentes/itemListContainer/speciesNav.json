@@ -1,0 +1,13 @@
+{
+  "category": [
+    {
+      "id": 1,
+      "nombre": "Human"
+    },
+
+    {
+      "id": 2,
+      "nombre": "Alien"
+    }
+  ]
+}

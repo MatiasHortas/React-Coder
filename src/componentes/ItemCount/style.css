@@ -1,0 +1,22 @@
+.controles,
+.contenedor__agregarCarrito {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.number {
+  font-size: 2rem;
+}
+.boton-sumar,
+.boton-restar {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.agregarCarrito {
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+}

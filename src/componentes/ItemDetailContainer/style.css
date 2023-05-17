@@ -1,0 +1,101 @@
+* {
+  font-family: rickandmorty;
+}
+
+@font-face {
+  font-family: rickandmorty;
+  src: url(../../../img/letra1.ttf);
+}
+
+.container__detalle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.849);
+  width: 70%;
+  margin: auto;
+  margin-top: 6%;
+  border-radius: 4%;
+  border: 1px solid grey;
+}
+
+.titulo__inicio--detalle {
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 2rem;
+}
+
+.titulo__item--detalle {
+  font-size: 30px;
+  color: white;
+  color: rgb(19, 179, 152);
+  text-shadow: 1.2px 1.2px 1.2px rgb(189, 245, 60);
+}
+
+.img__detalle {
+  border-radius: 4%;
+  margin-top: 3%;
+}
+
+.container__detalle--item {
+  background-color: rgba(5, 2, 2, 0.575);
+  padding: 1rem;
+  border-radius: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6%;
+  margin-bottom: 3rem;
+}
+
+.container__grid--compra {
+  padding: 10% 20%;
+  border: 1.2px solid rgba(128, 128, 128, 0.877);
+  border-radius: 6%;
+  background-color: white;
+  margin-top: 6%;
+  font-family: "Times New Roman", Times, serif;
+}
+.letraCambio,
+.circuloClass {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.1rem;
+}
+
+.circulo-red {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.item__precio--detalle {
+  color: black;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.circulo-green {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.circulo-question {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(251, 255, 22);
+}
+.span__detalle {
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.titulo__detalle--descripcion {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}

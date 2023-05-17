@@ -1,0 +1,89 @@
+* {
+  text-decoration: none;
+}
+
+body {
+  background-image: url(https://c.wallhere.com/photos/c1/64/Rick_and_Morty_space-1341343.jpg!d);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container__item:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.container__img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 5rem;
+  margin-bottom: 2rem;
+  margin-right: 3.2rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container__imagen {
+  background-color: rgba(5, 2, 2, 0.747);
+  width: 60%;
+  margin-left: 3.5rem;
+  padding: 1rem;
+  border-top-right-radius: 4%;
+  border-top-left-radius: 4%;
+  box-shadow: 3px 8px 10px rgba(3, 3, 3, 0.664);
+}
+
+.item__img {
+  cursor: pointer;
+  border: 2px solid black;
+  height: 300pxp;
+  border-radius: 4%;
+  margin-top: 3%;
+}
+
+.item__titulo {
+  font-size: 30px;
+  color: rgb(19, 179, 152);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-shadow: 1.2px 1.2px 1.2px rgb(189, 245, 60);
+  text-decoration: none;
+}
+
+.container__titulo--cartas {
+  display: flex;
+  justify-content: center;
+}
+.titulo__principal--cartas {
+  font-size: 5.5rem;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  color: rgb(19, 179, 152);
+  text-shadow: 3px 3px 3px rgb(189, 245, 60);
+  padding: 4rem;
+}
+
+.container__item--numero {
+  position: relative;
+}
+
+.container__item--precio {
+  display: flex;
+  margin-left: 3.5rem;
+  background-color: rgba(5, 2, 2, 0.747);
+  width: 66%;
+  border-bottom-left-radius: 4%;
+  border-bottom-right-radius: 4%;
+}
+
+.item__precio {
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+  margin: auto;
+  margin-top: 0.5rem;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+}
