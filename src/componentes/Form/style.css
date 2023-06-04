@@ -1,0 +1,51 @@
+.container--form {
+  padding-top: 5rem;
+}
+
+.container--input__form {
+  width: 40%;
+  height: 30rem;
+  background-color: rgba(10, 4, 4, 0.61);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 6%;
+}
+
+.input--form {
+  height: 7.5%;
+  width: 50%;
+  margin-bottom: 1rem;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 4%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+.input--form::placeholder {
+  color: black;
+}
+
+.input--btn {
+  padding: 5px;
+  font-size: 1.3rem;
+  font-family: "Times New Roman", Times, serif;
+  border: 1px solid black;
+  border-radius: 6%;
+}
+.input--btn:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+  cursor: pointer;
+}
+.input--titulo {
+  font-size: 2.5rem;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 2rem;
+  color: white;
+}
+@import "react-toastify/dist/ReactToastify.css";

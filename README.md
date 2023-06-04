@@ -1,10 +1,10 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+En este proyecto podras tener acceso a la tienda de rickandmorty y comprar la carta que vos quieras
 
 ## Available Scripts
 
-In the project directory, you can run:
+para iniciar el proyecto debes ingresar
 
 ### `npm start`
 

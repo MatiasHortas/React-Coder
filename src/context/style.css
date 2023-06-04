@@ -1,0 +1,9 @@
+.loading--context {
+  margin: auto;
+  height: 30rem;
+}
+
+.container--loader {
+  display: flex;
+  margin-top: 5rem;
+}
